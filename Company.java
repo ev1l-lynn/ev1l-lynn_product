@@ -1,7 +1,7 @@
 public class Company
 {
 
-private TreeSet<Product> products;
+private LinkedList<Product> products;
 private String name = "IBM";
 
 public Products()

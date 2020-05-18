@@ -1,11 +1,10 @@
 public class Product
 {
   private String name = "Coca Cola";
-  private boolean onStock = true;
   private float price = "10";
+  private boolean onStock = true;
 
-  public Product()
-  {
+  public Product(){
 
   }
 
