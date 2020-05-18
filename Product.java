@@ -1,6 +1,7 @@
 public class Product
 {
   private String name = "Coca Cola";
+  private float price = "10";
 
   public Product()
   {
@@ -15,5 +16,15 @@ public class Product
   public String getName()
   {
     return name;
+  }
+
+  public void setPreis(float preis)
+  {
+    this.preis = preis;
+  }
+
+  public float getPreis()
+  {
+    return preis;
   }
 }
